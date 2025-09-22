@@ -21,54 +21,78 @@
   footer {
       /*TO DO: background color, text color, padding, center align text */
       background-color: #013146;
-      text
+      color: white;
+      text-align: center;
+      padding: 15px;
   }
 
   main {
       /*TO DO: page margin  */
+      margin: 10px;
       
   }
 
   section {
       /*TO DO: vertical spacing between sections */
+      border-spacing: 50px;
   }
 
   a {
       /*TO DO: link color, remove underline*/
+      color: white;
+      text-decoration: none;
   }
 
   a:hover {
       /*TO DO: add font weight or other subtle change on hover state */
+      font-weight: bold;
   }
 
   h1,
   h2 {
       /*TO DO: font family + fallback, weight */
+      font-family: "Epunda Sans", sans-serif;
+      font-weight: bold;
   }
 
   h2 {
       /*TO DO: transform to uppercase*/
+      text-transform: capitalize;
   }
 
   .lead {
       /*TO DO: font size (em), font style and/or weight */
+      font-size: 1.2em;
+      font-weight: bold;
   }
 
   .register a {
       /*TO DO: background color, text color, padding */
+      background-color: #C52804;
+      color: white;
+      padding: 15px;
   }
+
+.register a:hover {
+    /*TO DO: background color, text color, padding */
+    background-color: #551000;
+    color: white;
+    padding: 15px;
+}
 
   .schedule p {
       /*TO DO: padding, reset margin to 0 */
-      padding: 0%;
+      padding: 10px;
+      margin: 0;
   }
 
   .odd {
       /*TO DO: background color */
-      background-color: antiquewhite;
+      background-color: #BCF7FF;
   }
 
   .even {
       /*TO DO: background color */
-      background-color: aquamarine;
+      background-color: #7DE7F7;
   }
+
