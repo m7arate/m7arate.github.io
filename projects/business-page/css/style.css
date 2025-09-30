@@ -1,0 +1,108 @@
+/*
+  Black: 0F0A0A
+  White: F5EFED
+*/
+
+/* Elements */
+
+header {
+  background-color: 	#e2dad3;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: 	#e2dad3;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Barrio';
+    text-align: center;
+    color: #1F1D20;
+}
+
+h2 {
+    font-family: 'DM Serif Text', serif;
+    color: #e2dad3;
+}
+
+p {
+  color: #e2dad3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    background-color: #514e2d;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.bottomgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #b36d39;
+}
+
+.box {
+  background: #b36d39;
+  padding: 20px;
+  text-align: center;
+}
+
+.bodybox {
+    background: #b36d39;
+  padding: 20px;
+  text-align: left;
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;    
+  padding: 20px;     
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Fonts */
+
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-serif {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
