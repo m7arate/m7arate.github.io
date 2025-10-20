@@ -1,0 +1,91 @@
+/* --alice-blue: #f3f8fdff; 
+--air-superiority-blue: #7695a8ff;
+--paynes-gray: #466778ff; 
+--ochre: #c77430ff; 
+--jet: #2f2d2fff; */
+
+/* Elements */
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Goblin One", serif;
+}
+header {
+    background-color: #466778ff;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #2f2d2fff;
+    font-family: "Roboto Serif", serif;
+    background-color: #7695a8ff;
+    padding: 5px;
+}
+
+.photo-header {
+    text-align: left;
+    padding: 20px;
+}
+
+h3 {
+    color: #2f2d2fff;
+    font-family: "Roboto Serif", serif;
+    font-size: large;
+}
+
+p {
+    color: #2f2d2fff;
+    font-family: "League Spartan", sans-serif;
+}
+
+.carosel-item {
+    height: 400px;
+    object-fit: contain;
+    background-color: #7695a8ff;
+}
+
+body {
+    background-color: #7695a8ff;
+}
+
+/* Divisons */
+.left {
+    width: 20%;
+    padding: 20px;
+}
+
+.right {
+    width: 80%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: #c77430ff;
+}
+/* Fonts */
+.goblin-one-regular {
+  font-family: "Goblin One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto-serif {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+
+.league-spartan {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
