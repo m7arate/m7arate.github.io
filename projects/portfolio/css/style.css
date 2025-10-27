@@ -19,8 +19,16 @@ header {
 h2 {
     color: #2f2d2fff;
     font-family: "Roboto Serif", serif;
-    background-color: #7695a8ff;
+    background-color: rgb(128, 161, 182);
     padding: 5px;
+}
+
+h2 a {
+    color: #2f2d2fff;
+}
+
+.article-link {
+    font-family: "Roboto Serif", serif;
 }
 
 .photo-header {
@@ -37,13 +45,33 @@ h3 {
 p {
     color: #2f2d2fff;
     font-family: "League Spartan", sans-serif;
+    font-size: large;
 }
 
-.carosel-item {
-    height: 400px;
-    object-fit: contain;
-    background-color: #7695a8ff;
+a {
+    color: aliceblue;
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    padding: 20px;
+    font-size: larger;
+    font-style: oblique;
 }
+
+a:hover {
+    color: #2f2d2fff;
+}
+
+.carousel-item {
+    height: 800px;
+    object-fit: contain;
+    background-color: #466778ff;
+}
+
+.carousel-item img {
+    height: 800px;
+    object-fit: contain; 
+}
+
 
 body {
     background-color: #7695a8ff;
