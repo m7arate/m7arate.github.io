@@ -31,8 +31,8 @@ Font: Inter Tight
 }
 
 .breakout img {
-    flex: 1 1 30%;
-    max-width: 30%;
+    flex: 30%;
+    max-width: 50%;
     height: auto;
 }
 
