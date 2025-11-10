@@ -1,0 +1,81 @@
+/*
+background: FDEFD7
+blue: 116AB3
+pink: AD1A64
+black: 030301
+teal: 08706F
+orange: E94613
+
+Font: Inter Tight
+*/
+
+.container {
+    width: 45%;
+}
+
+.container-fluid {
+    width: auto;
+    max-width: 90%;
+}
+
+.breakout {
+    left: 50%;
+    right: 50%;
+    margin-left: -4.9in;
+    margin-right: -4.9in;
+    width: 100vw;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.breakout img {
+    flex: 1 1 30%;
+    max-width: 30%;
+    height: auto;
+}
+
+body {
+    background-color: #FDEFD7;
+    font-family: "Inter Tight", sans-serif;  
+    font-style: normal;    
+    margin: 0 auto;     
+    padding: 3rem 1.5rem;   
+    text-align: left; 
+    color: #030301;
+    max-width: 720px; 
+}
+
+.chart-hed {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+p {
+    font-family: "Inter Tight", sans-serif;
+}
+
+a {
+    color: #030301;
+}
+
+span {
+    color: #AD1A64;
+}
+
+body img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
