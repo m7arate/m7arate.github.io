@@ -1,0 +1,48 @@
+/* CSS HEX 
+--alabaster-grey: #e9e9e9ff;
+--blue-slate: #4f6c71ff;
+--jet-black: #25343bff;
+--pacific-blue: #489ca4ff;
+--ink-black: #051720ff;
+*/
+
+body {
+  background: linear-gradient(#489ca4ff, #051720ff);
+}
+
+p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 2%;
+}
+
+h3 {
+    font-family: "Cinzel", serif;
+    font-size: 2em;
+}
+
+.league-spartan-text {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.cinzel-title {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
